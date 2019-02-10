@@ -32,7 +32,7 @@ testimonials:
 # Map
 map:
     zoom: 17
-    address: Calle Caceres 17, Alcorcón, Spain
+    address: Calle Cáceres, 17, Alcorcón, España
     address_details: svg/min/logo.svg
 
 # Social settings
