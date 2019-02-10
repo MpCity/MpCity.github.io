@@ -9,7 +9,7 @@ logo_url: svg/min/logo.svg
 hero:
     hero_img: hero.jpg
     hero_title: jcp asesores
-    hero_description: Asesoría integral en Alcorcón (Madrid).
+    hero_description: Asesoría integral en Alcorcón, Madrid.
 
 # Contact form
 api_token: a83cd4dd2f7789083050ca49ead542fd
