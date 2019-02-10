@@ -18,7 +18,7 @@ api_token: # Enter API token here
 contact:
     phone: 91 644 83 36
     email: info@jcpasesores.es
-    address: Calle Caceres 17, Bajo B<br> Alcorcón - Madrid
+    address: Calle Cáceres 17, Bajo B<br> Alcorcón - Madrid
 
 # Opening hours
 monday_thursday_m: 9:00 a 14:00
