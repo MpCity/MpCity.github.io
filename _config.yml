@@ -6,13 +6,13 @@ url: "https://jcpasesores.es/" # the name of your domain
 logo_url: svg/min/logo.svg
 
 # Hero
-hero: 
+hero:
     hero_img: hero.jpg
     hero_title: jcp asesores
     hero_description: Asesoría integral en Alcorcón (Madrid).
 
 # Contact form
-api_token: # Enter API token here
+api_token: a83cd4dd2f7789083050ca49ead542fd
 
 # Contact info
 contact:
@@ -44,7 +44,7 @@ skype: skype:obaez_design?userinfo
 feed: yes
 
 # Footer
-copyright: © 2015 DentistSmile - All rights reserved
+copyright: © 2019 jcp asesores - All rights reserved
 
 # Build settings
 markdown: kramdown
@@ -60,5 +60,5 @@ exclude: [
 ]
 
 # Theme Settings
-analytics: 
+analytics:
 google_verification:
