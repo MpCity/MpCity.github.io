@@ -21,8 +21,9 @@ contact:
     address: Calle Caceres 17, Bajo B<br> Alcorcón - Madrid
 
 # Opening hours
-monday_friday: 9:00 a 14:00 y de 17:00 a 19:00
-saturday: 9:00 a 14:00
+monday_thursday_m: 9:00 - 14:00
+monday_thursday_e:
+friday: 9:00 a 14:00
 
 # Testimonials
 testimonials:
