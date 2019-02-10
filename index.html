@@ -33,31 +33,6 @@ layout: default
                 <input type="submit" class="btn btn-default" value="Enviar">
             </form>
         </div>
-
-        <div class="row">
-          <div class="col-sm-6 col-md-4">
-              <div class="icon-box">
-                  <svg class="icon {{ treatment.icon }}"><use xlink:href="#{{ treatment.icon }}"></use></svg>
-                  <h4>Asesoría Laboral</h4>
-                  <p>¿Necesita un especialista en materia laboral? Cubrimos todas las necesidades empresariales en el ámbito laboral.</p>
-              </div>
-          </div>
-          <div class="col-sm-6 col-md-4">
-              <div class="icon-box">
-                  <svg class="icon {{ treatment.icon }}"><use xlink:href="#{{ treatment.icon }}"></use></svg>
-                  <h4>Asesoría Fiscal</h4>
-                  <p>¿Precisa de una asesoría para su gestión fiscal, presentación de impuestos o tiene una problemática fiscal especial? Delega en un experto de tu confianza la contabilidad y las tediosas gestiones con la Administración</p>
-              </div>
-          </div>
-          <div class="col-sm-6 col-md-4">
-              <div class="icon-box">
-                  <svg class="icon {{ treatment.icon }}"><use xlink:href="#{{ treatment.icon }}"></use></svg>
-                  <h4>Asesoría Fiscal</h4>
-                  <p>{{ treatment.description }}</p>
-              </div>
-          </div>
-        </div>
-
     </div>
 </div>
 <!-- End Hero -->
@@ -154,15 +129,27 @@ layout: default
         <h2 class="section-title">Nuestros servicios</h2>
 
         <div class="row">
-            {% for treatment in site.data.treatments %}
-                <div class="col-sm-6 col-md-4">
-                    <div class="icon-box">
-                        <svg class="icon {{ treatment.icon }}"><use xlink:href="#{{ treatment.icon }}"></use></svg>
-                        <h4>{{ treatment.title }}</h4>
-                        <p>{{ treatment.description }}</p>
-                    </div>
-                </div>
-            {% endfor %}
+          <div class="col-sm-6 col-md-4">
+              <div class="icon-box">
+                  <svg class="icon {{ treatment.icon }}"><use xlink:href="#{{ treatment.icon }}"></use></svg>
+                  <h4>Asesoría Laboral</h4>
+                  <p>¿Necesita un especialista en materia laboral? Cubrimos todas las necesidades empresariales en el ámbito laboral.</p>
+              </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+              <div class="icon-box">
+                  <svg class="icon {{ treatment.icon }}"><use xlink:href="#{{ treatment.icon }}"></use></svg>
+                  <h4>Asesoría Fiscal</h4>
+                  <p>¿Precisa de una asesoría para su gestión fiscal, presentación de impuestos o tiene una problemática fiscal especial? Delega en un experto de tu confianza la contabilidad y las tediosas gestiones con la Administración</p>
+              </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+              <div class="icon-box">
+                  <svg class="icon {{ treatment.icon }}"><use xlink:href="#{{ treatment.icon }}"></use></svg>
+                  <h4>Asesoría Fiscal</h4>
+                  <p>{{ treatment.description }}</p>
+              </div>
+          </div>
         </div>
     </div>
 </div>
