@@ -1,30 +1,28 @@
 # Site settings
-title: DentistSmile | Dental Jekyll Theme
-description: "A responsive Jekyll theme for dental clinics."
+title: jcp asesores
+description: "Asesoría integral en Alcorcón para empresas, autónomos y particulares en materia fiscal, laboral, contable, mercantil y RGPD."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the name of your domain
+url: "https://jcpasesores.es/" # the name of your domain
 logo_url: svg/min/logo.svg
 
 # Hero
 hero: 
     hero_img: hero.jpg
-    hero_title: DentistSmile
-    hero_description: A responsive Jekyll theme for dental clinics.
+    hero_title: jcp asesores
+    hero_description: Asesoría integral en Alcorcón (Madrid).
 
 # Contact form
 api_token: # Enter API token here
 
 # Contact info
 contact:
-    phone: 932 50 540
-    emergency: 931 53 234
-    email: contact@yoursite.com
-    address: Von schroeders 273, <br> Viña del mar - Chile
+    phone: 91 644 83 36
+    email: info@jcpasesores.es
+    address: Calle Caceres 17, Bajo B<br> Alcorcón - Madrid
 
 # Opening hours
-monday_friday: 9:00 – 18:00
-saturday: 10:00 – 17:00
-sunday: 10:00 – 15:00
+lunes_viernes: 9:00 – 14:00 | 17:00 - 19:00
+viernes: 10:00 – 17:00
 
 # Testimonials
 testimonials:
