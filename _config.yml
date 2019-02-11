@@ -8,7 +8,7 @@ logo_url: svg/min/logo.svg
 # Hero
 hero:
     hero_img: hero.jpg
-    hero_title: jcp asesores
+    hero_title: JCP asesores
     hero_description: Asesoría integral en Alcorcón, Madrid.
 
 # Contact form
@@ -44,7 +44,7 @@ skype: skype:obaez_design?userinfo
 feed: yes
 
 # Footer
-copyright: © jcp asesores 2019
+copyright: © JCP asesores 2019
 
 # Build settings
 markdown: kramdown
