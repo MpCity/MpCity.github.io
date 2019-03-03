@@ -1,4 +1,4 @@
-- icon: icon-briefcase
+- icon: icon-group
   title: Asesoría Laboral
   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
 
@@ -6,8 +6,8 @@
   title: Asesoría Fiscal
   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
 
-- icon: icon-flask
-  title: Stain removal
+- icon: icon-briefcase
+  title: Asesoría Contable
   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 
 - icon: icon-globe
