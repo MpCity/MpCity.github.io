@@ -1,12 +1,12 @@
-- icon: icon-group
+- icon: fas fa-building
   title: Asesoría Laboral
   description: Realizamos el asesoramiento laboral de nuestros clientes, siendo muy estrictos en el cumplimiento de la normativa, para que el rendimiento de su empresa sea el mejor posible.
 
-- icon: icon-diamond
+- icon: fas fa-gem
   title: Asesoría Fiscal
   description: Garantizamos la cumplimentación y presentación de los correspondientes modelos en los plazos establecidos por la AEAT, minimizando el impacto fiscal y asegurando el cumplimiento de todas las obligaciones legales para evitar sanciones.
 
-- icon: icon-briefcase
+- icon: fas fa-briefcase
   title: Asesoría Contable
   description: Efectuamos la contabilidad general de la empresa, proveedores, clientes, cobros, pagos, cuentas anuales...  satisfaciendo las normativas legales actuales.
 
