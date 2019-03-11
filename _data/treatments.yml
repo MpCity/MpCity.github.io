@@ -16,7 +16,7 @@
 - icon: fas fa-database
   title: Protección de Datos
   description: Ofrecemos un servicio de consultoría de confianza que le ayudará a conocer el grado de cumplimiento de su organización y cómo adaptarlo. Adecuación total al RGPD, documentación actualizada y adaptada y soporte Legal Permanente.
-  button: /proteccion-datos/
+  button:
 
 - icon: fas fa-globe
   title: Otros Servicios
