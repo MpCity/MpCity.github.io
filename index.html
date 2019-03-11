@@ -2,6 +2,26 @@
 layout: default
 ---
 
+<style>
+.button {
+  background-color: #3dadb2;
+  border: none;
+  color: white;
+  padding: 20px;
+  opacity: 0.6;
+  transition: 0.3s;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.button:hover {opacity: 1}
+</style>
+
 <!-- Start Hero -->
 <div class="hero" style="background: url('{{ site.baseurl }}/img/{{ site.hero.hero_img }}') no-repeat; background-size: cover;">
     <div class="hero-content">
@@ -131,6 +151,7 @@ layout: default
                         <svg class="icon {{ treatment.icon }}"><use xlink:href="#{{ treatment.icon }}"></use></svg>
                         <h4>{{ treatment.title }}</h4>
                         <p>{{ treatment.description }}</p>
+                        <button class="button">{{ treatment.button }}</button>
                     </div>
                 </div>
             {% endfor %}
