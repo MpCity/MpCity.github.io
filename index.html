@@ -30,13 +30,12 @@ layout: default
                 </div>
                 <div class="form-field">
                     <textarea name="comments" placeholder="Mensaje" required></textarea>
-                </div>
-                <div class="form-field">
-                    <input type="checkbox" name="rgpd_check" required> Confirmo que he leido y que acepto la <a href="https://jcpasesores.es/politica-de-privacidad/">Política de Privacidad</a>.<br>
-                </div>
                 <div ng-app="rgpd">
-                    
-                    <input ng-click="ocultar=false" type="checkbox" name="rgpd_check" required> Confirmo que he leido y que acepto la <a href="https://jcpasesores.es/politica-de-privacidad/">Política de Privacidad</a>.<br>
+                    <button ng-click="ocultar=false">Mostrar</button>
+                    <button ng-click="ocultar=true">Ocultar</button>
+                    <div class="form-field" style="text-align:right">
+                        <input ng-click="ocultar=false" type="checkbox" name="rgpd_check" required> Confirmo que he leido y que acepto la <a href="https://jcpasesores.es/politica-de-privacidad/">Política de Privacidad</a>.
+                    </div>
 
                     <form ng-hide="ocultar">
                         <p><span style="font-size: 8pt;">En cumplimiento de lo dispuesto en el Reglamento UE 2016/679 del Parlamento Europeo y del Consejo de 27 de abril de 2016, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos (RGPD);&nbsp;<a href="https://jcpasesores.es">JCP asesores</a> te informa de que los datos de carácter personal que nos proporciones rellenando el presente formulario serán tratados por el/la responsable de esta web. La finalidad de la recogida y tratamiento de los datos personales que te solicitamos será atender tu consulta de la manera más eficiente. La legitimación se realiza a través del consentimiento expreso del interesado. Te informamos de que los datos que nos facilitas estarán ubicados en los servidores de SOLUCIONES CORPORATIVAS IP, S.L. (SCIP), con domicilio social en Calle Ses Parres 21 1,07500, Manacor (Illes Balears). Ver <a href="http://www.scip.es/legal/">política de privacidad de SCIP</a>. El no introducir los datos de carácter personal que aparecen en el formulario como obligatorios tendrá como consecuencia no poder atender tu solicitud. Podrás ejercer tus derechos de acceso, rectificación, limitación y supresión sobre los datos&nbsp;en&nbsp;<a>info@jcpasesores.es</a> así como el derecho a presentar una reclamación ante la correspondiente autoridad de control. Puedes consultar la información adicional y detallada sobre Protección de Datos en nuestra <a href="https://jcpasesores.es/politica-de-privacidad/">política de privacidad</a>.</span></p>
