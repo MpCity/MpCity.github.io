@@ -15,24 +15,44 @@ layout: default
 
     <div class="container-fluid">
 
-        <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form">
-            <h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>¿En qué podemos ayudarte?</h3>
-                <form action="https://formspree.io/info@jcpasesores.es" method="POST">
-                <div class="form-field">
-                    <input name="name" type="text" placeholder="Nombre" required>
-                </div>
-                <div class="form-field">
-                    <input name="phone" type="tel" placeholder="Teléfono" required>
-                </div>
-                <div class="form-field">
-                    <input name="email" type="email" placeholder="Email" required>
-                </div>
-                <div class="form-field">
-                    <textarea name="comments" placeholder="Mensaje" required></textarea>
-                </div>
-                <input type="submit" class="btn btn-default" value="Enviar">
-            </form>
-        </div>
+      <script>function hideRGPD() {
+// Get the checkbox
+var checkBox = document.getElementById("myRGPDCheck");
+// Get the output text
+var text = document.getElementById("RGPDtext");
+
+// If the checkbox is checked, display the output text
+if (checkBox.checked == true){
+  text.style.display = "block";
+} else {
+  text.style.display = "none";
+}
+}</script>
+      <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form">
+          <h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>¿En qué podemos ayudarte?</h3>
+              <form action="https://formspree.io/info@jcpasesores.es" method="POST">
+              <div class="form-field">
+                  <input name="name" type="text" placeholder="Nombre" required>
+              </div>
+              <div class="form-field">
+                  <input name="phone" type="tel" placeholder="Teléfono" required>
+              </div>
+              <div class="form-field">
+                  <input name="email" type="email" placeholder="Email" required>
+              </div>
+              <div class="form-field">
+                  <textarea name="comments" placeholder="Mensaje" required></textarea>
+              </div>
+              <div class="form-field">
+                  <label class="checkbox-rgpd" style="font-weight: normal">
+                      <input type="checkbox" id="myRGPDCheck" onclick="hideRGPD()" style="display: inline; width: auto" required></input> Confirmo que he leido y que acepto la <a href="/politica-de-privacidad/">Política de Privacidad</a>.
+                  </label>
+                  <br>
+                  <p id="RGPDtext" style="display:none; font-size: 8pt; text-align: justify"><br>En cumplimiento de lo dispuesto en el Reglamento UE 2016/679 del Parlamento Europeo y del Consejo de 27 de abril de 2016, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos (RGPD);&nbsp;<a href="https://jcpasesores.es">JCP asesores</a> te informa de que los datos de carácter personal que nos proporciones rellenando el presente formulario serán tratados por el/la responsable de esta web. La finalidad de la recogida y tratamiento de los datos personales que te solicitamos será atender tu consulta de la manera más eficiente. La legitimación se realiza a través del consentimiento expreso del interesado. Te informamos de que los datos que nos facilitas estarán ubicados en los servidores de SOLUCIONES CORPORATIVAS IP, S.L. (SCIP), con domicilio social en Calle Ses Parres 21 1,07500, Manacor (Illes Balears). Ver <a href="http://www.scip.es/legal/">política de privacidad de SCIP</a>. El no introducir los datos de carácter personal que aparecen en el formulario como obligatorios tendrá como consecuencia no poder atender tu solicitud. Podrás ejercer tus derechos de acceso, rectificación, limitación y supresión sobre los datos&nbsp;en&nbsp;<a>info@jcpasesores.es</a> así como el derecho a presentar una reclamación ante la correspondiente autoridad de control. Puedes consultar la información adicional y detallada sobre Protección de Datos en nuestra <a href="/politica-de-privacidad/">política de privacidad</a>.<br><br></p>
+              </div>
+              <input type="submit" class="btn btn-default" value="Enviar">
+              </form>
+      </div>
 
     </div>
 </div>
