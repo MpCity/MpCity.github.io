@@ -151,7 +151,9 @@ layout: default
                         <h4>{{ treatment.title }}</h4>
                         <p>{{ treatment.description }}</p>
                     </div>
+                    {% if treatment.button %}
                     <a href="{{ treatment.button }}" class="button" style="text-decoration: none;">Leer más</a>
+                    {% endif %}
                 </div>
             {% endfor %}
         </div>
