@@ -16,8 +16,8 @@ layout: default
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 2px;
-  position:relative;
-  margin-top:100%;
+  position: absolute;
+  margin-top: 100%;
 }
 
 .button:hover {opacity: 1}
@@ -154,7 +154,7 @@ layout: default
                         <p>{{ treatment.description }}</p>
 
                         <a href="{{ treatment.button }}" class="button" style="text-decoration: none;">Leer más</a>
-                        
+
                     </div>
                 </div>
             {% endfor %}
