@@ -16,8 +16,6 @@ layout: default
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 2px;
-  position: absolute;
-  margin-top: 100%;
 }
 
 .button:hover {opacity: 1}
@@ -152,10 +150,8 @@ layout: default
                         <svg class="icon {{ treatment.icon }}"><use xlink:href="#{{ treatment.icon }}"></use></svg>
                         <h4>{{ treatment.title }}</h4>
                         <p>{{ treatment.description }}</p>
-
-                        <a href="{{ treatment.button }}" class="button" style="text-decoration: none;">Leer más</a>
-
                     </div>
+                    <a href="{{ treatment.button }}" class="button" style="text-decoration: none;">Leer más</a>
                 </div>
             {% endfor %}
         </div>
