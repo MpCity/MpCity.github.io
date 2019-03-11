@@ -152,7 +152,9 @@ layout: default
                         <svg class="icon {{ treatment.icon }}"><use xlink:href="#{{ treatment.icon }}"></use></svg>
                         <h4>{{ treatment.title }}</h4>
                         <p>{{ treatment.description }}</p>
+                        {% if treatment.button}
                         <a href="{{ treatment.button }}" class="button" style="text-decoration: none;">Leer más</a>
+                        {% endif %}
                     </div>
                 </div>
             {% endfor %}
