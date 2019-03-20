@@ -63,3 +63,7 @@ exclude: [
 # Theme Settings
 analytics:
 google_verification:
+
+#plugins
+plugins:
+  - jekyll-sitemap
