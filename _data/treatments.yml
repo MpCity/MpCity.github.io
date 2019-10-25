@@ -13,11 +13,6 @@
   description: Efectuamos la contabilidad general de la empresa, proveedores, clientes, cobros, pagos, cuentas anuales...  satisfaciendo las normativas legales actuales y garantizandole la mayor tranquilidad.
   button: /asesoria-contable/
 
-- icon: fas fa-database
-  title: Protección de Datos
-  description: Ofrecemos un servicio de consultoría de confianza que le ayudará a conocer el grado de cumplimiento de su organización y cómo adaptarlo. Adecuación total al RGPD, documentación actualizada y adaptada y soporte Legal Permanente.
-  button:
-
 - icon: fas fa-globe
   title: Otros Servicios
   description: Nuestro asesoramiento hará posible gestionar cualquier trámite de su vehículo como matriculaciones, transferencias de vehículos y obtención informes de tráfico; contratos de compra venta e impuesto de transmisiones; administración de fincas; herencias...
