@@ -20,7 +20,8 @@
     <script src="{{ site.baseurl }}/js/jquery.min.js"></script>
     <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
     <script src="{{ site.baseurl }}/js/fa-all.min.js"></script>
-    <!--<script src="{{ site.baseurl }}/js/jquery.min.js"></script>-->
+    <script src="{{ site.baseurl }}/js/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/js/main.js"></script>
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/cookieconsent.min.css" />
     <script src="{{ site.baseurl }}/js/cookieconsent.min.js"></script>
@@ -44,21 +45,6 @@
         "href": "/politica-de-cookies/"
       }
     })});
-    </script>
-    
-    <script>
-    var scrollDuration = 800;
-    var ssSmoothScroll = function() {
-      $('.smoothscroll').on('click', function (e) {
-        var target = this.hash,
-        $target = $(target);
-        e.preventDefault();
-        e.stopPropagation();
-        $('html, body').stop().animate({'scrollTop': $target.offset().top}, scrollDuration, 'swing', function () {
-          window.location.hash = target;
-        });
-      });
-    };  
     </script>
 
     <!-- <script src="{{ site.baseurl }}/js/jquery.magnific-popup.js"></script>
