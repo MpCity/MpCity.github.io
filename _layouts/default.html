@@ -45,6 +45,28 @@
       }
     })});
     </script>
+    
+    <script>
+      var scrollDuration = 800;
+        
+      var ssSmoothScroll = function() {
+
+        $('.smoothscroll').on('click', function (e) {
+            var target = this.hash,
+            $target    = $(target);
+
+            e.preventDefault();
+            e.stopPropagation();
+
+            $('html, body').stop().animate({
+                'scrollTop': $target.offset().top
+            }, scrollDuration, 'swing', function () {
+                window.location.hash = target;
+            });
+
+        });
+    };  
+    </script>
 
     <!-- <script src="{{ site.baseurl }}/js/jquery.magnific-popup.js"></script>
     <script src="{{ site.baseurl }}/js/gmap3.js"></script> -->
