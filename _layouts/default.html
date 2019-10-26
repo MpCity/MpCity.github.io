@@ -20,16 +20,13 @@
     <script src="{{ site.baseurl }}/js/jquery.min.js"></script>
     <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
     <script src="{{ site.baseurl }}/js/fa-all.min.js"></script>
+    <script src="{{ site.baseurl }}/js/cookieconsent.min.js"></script>
     
     <script src="{{ site.baseurl }}/js/jquery.min.js"></script>
     <script>
     $(document).ready(function(){$(".smoothscroll").on('click',function(event){if(this.hash!==""){event.preventDefault();var hash=this.hash;$('html, body').animate({scrollTop:$(hash).offset().top},800,function(){window.location.hash=hash;});}});});
     </script>
     
-    <script src="{{ site.baseurl }}/js/main.js"></script>
-
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/cookieconsent.min.css" />
-    <script src="{{ site.baseurl }}/js/cookieconsent.min.js"></script>
     <script>
     window.addEventListener("load", function(){
     window.cookieconsent.initialise({
