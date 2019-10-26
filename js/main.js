@@ -100,22 +100,9 @@
    /* Initialize
     * ------------------------------------------------------ */
     (function ssInit() {
-
         ssPreloader();
-        ssPrettyPrint();
-        ssMoveHeader();
         ssMobileMenu();
-        ssMasonryFolio();
-        ssPhotoswipe();
-        ssSlickSlider();
-        ssWaypoints();
-        ssStatCount();
         ssSmoothScroll();
-        ssPlaceholder();
-        ssAlertBoxes();
-        ssContactForm();
-        ssBackToTop();
-
     })();
 
 
