@@ -1,5 +1,6 @@
 # Site settings
-title: JCP asesores
+title: "JCP asesores"
+SEOtitle: "JCP asesores · Asesoría integral en Alcorcón"
 description: "Asesoramos a empresas, autónomos y particulares en materia fiscal, laboral, contable, mercantil y RGPD."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jcpasesores.es" # the name of your domain
