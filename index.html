@@ -48,7 +48,7 @@ title: Home
   }
 }</script>
         <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form">
-            <h3><svg class="icon far fa-envelope"><use xlink:href="#icon-envelope-o"></use></svg>¿En qué podemos ayudarle?</h3>
+            <h3><ion-icon size="large" name="mail-outline"></ion-icon>¿En qué podemos ayudarle?</h3>
                 <form action="https://usebasin.com/f/cd8c0f5f7784" method="POST">
                 <div class="form-field">
                     <input name="nombre" type="text" placeholder="Nombre" required>
@@ -79,7 +79,7 @@ title: Home
 <!-- Start 3 columns -->
 <div class="three-shade-col">
     <div class="col-sm-4">
-        <svg class="icon far fa-envelope"><use xlink:href="#icon-envelope-o"></use></svg>
+        <ion-icon size="large" name="mail-outline"></ion-icon>
         <h3>Contacte con nosotros</h3>
         <ul>
             {% if site.contact.phone %}<li><strong>Teléfono:</strong> {{ site.contact.phone }}</li>{% endif %}
@@ -88,7 +88,7 @@ title: Home
         </ul>
     </div>
     <div class="col-sm-4">
-        <svg class="icon far fa-clock"><use xlink:href="#icon-clock-o"></use></svg>
+        <ion-icon size="large" name="time-outline"></ion-icon>
         <h3>Horario</h3>
         <table>
             <tbody>
@@ -108,7 +108,7 @@ title: Home
         </table>
     </div>
     <div class="col-sm-4">
-        <svg class="icon fas fa-map-marker-alt"><use xlink:href="#icon-map-marker"></use></svg>
+        <ion-icon size="large" name="location-outline"></ion-icon>
         <h3>Dónde estamos</h3>
             <p>
                 {{ site.contact.address }}
@@ -148,7 +148,7 @@ title: Home
             {% for treatment in site.data.treatments %}
                 <div class="col-sm-6 col-md-4">
                     <div class="icon-box">
-                        <svg class="icon {{ treatment.icon }}"><use xlink:href="#{{ treatment.icon }}"></use></svg>
+                        <ion-icon size="large" name="{{ treatment.icon }}"></ion-icon>
                         <h4>{{ treatment.title }}</h4>
                         <p>{{ treatment.description }}</p>
                         {% if treatment.button %}
