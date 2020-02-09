@@ -18,7 +18,7 @@ El uso de sitio web implica la aceptación de esta Política de Privacidad así 
 
 *   Titular: Juana Ciudad Pozuelo, en adelante [JCP asesores](https://jcpasesores.es) o el Titular
 *   Domicilio: Calle Cáceres 17, Bajo B - 28922 Alcorcón (Madrid).
-*   Correo electrónico: ![info[arroba]jcpasesores[punto]es](/static/liame-blue.png)
+*   Correo electrónico: <img src="/static/liame-blue.png" height="20" width="150" alt="info[arroba]jcpasesores[punto]es">
 *   Sitio web: [jcpasesores.es](https://jcpasesores.es)
 
 ### Principios aplicados en el tratamiento de datos
@@ -60,7 +60,7 @@ El Titular te informa que sobre sus datos personales tiene derecho a:
 
 El ejercicio de estos derechos es personal y por tanto debe ser ejercido directamente por el interesado, solicitándolo directamente al Titular, lo que significa que cualquier usuario de la web que haya facilitado sus datos en algún momento puede dirigirse al Titular y pedir información sobre los datos que tiene almacenados y cómo los ha obtenido, solicitar la rectificación de los mismos, solicitar la portabilidad de sus datos personales, oponerse al tratamiento, limitar su uso o solicitar la cancelación de esos datos en los ficheros del Titular.
 
-Para ejercitar sus derechos de acceso, rectificación, cancelación, portabilidad y oposición deberá enviar un correo electrónico a ![info[arroba]jcpasesores[punto]es](/static/liame-blue.png) junto con la prueba válida en derecho como una fotocopia del D.N.I. o equivalente.
+Para ejercitar sus derechos de acceso, rectificación, cancelación, portabilidad y oposición deberá enviar un correo electrónico a <img src="/static/liame-blue.png" height="20" width="150" alt="info[arroba]jcpasesores[punto]es"> junto con la prueba válida en derecho como una fotocopia del D.N.I. o equivalente.
 
 Tiene derecho a la tutela judicial efectiva y a presentar una reclamación ante la autoridad de control competente, en este caso, la Agencia Española de Protección de Datos, si considera que el tratamiento de datos personales que le conciernen infringe el Reglamento.
 
@@ -138,7 +138,7 @@ Como Usuario del sitio web declara haber sido informado de las condiciones sobre
 
 ### Revocabilidad
 
-Para ejercitar sus derechos de acceso, rectificación, cancelación, portabilidad y oposición deberá enviar un correo electrónico a ![info[arroba]jcpasesores[punto]es](/static/liame-blue.png) junto con la prueba válida en derecho como una fotocopia del D.N.I. o equivalente.
+Para ejercitar sus derechos de acceso, rectificación, cancelación, portabilidad y oposición deberá enviar un correo electrónico a <img src="/static/liame-blue.png" height="20" width="150" alt="info[arroba]jcpasesores[punto]es"> junto con la prueba válida en derecho como una fotocopia del D.N.I. o equivalente.
 
 El ejercicio de sus derechos no incluye ningún dato que el Titular esté obligado a conservar con fines administrativos, legales o de seguridad.
 
