@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: politicas
 title: "Política de privacidad"
 ---
 
